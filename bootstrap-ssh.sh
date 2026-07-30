@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PUBKEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... anton@main"
+PUBKEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFLfg1qSk4QiHkfOd0iHV+I+ztBwln/79d6w2iMki7+5 oneto-rodina-2026"
 SSH_USER="${SUDO_USER:-$USER}"
 SSH_DIR="/root/.ssh"   # или /home/$SSH_USER/.ssh если не под root
 
